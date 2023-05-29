@@ -3,6 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm uninstall -g @angular/cli
+        - npm cache clean --force
         - npm install -g @angular/cli
         - npm ci --omit=dev --legacy-peer-deps
     build:
