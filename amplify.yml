@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci --omit=dev
+        - npm ci --omit=dev --legacy-peer-deps
     build:
       commands:
         - npm run build
