@@ -13,5 +13,5 @@ frontend:
       - '**/*'
   cache:
       - npm cache clean --force
-    paths:
+  paths:
       - node_modules/**/*
