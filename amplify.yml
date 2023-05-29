@@ -1,8 +1,8 @@
 version: 1
 frontend:
   phases:
-    preBuild:
-      - npm install --force
+      preBuild:
+        - npm install --force
       commands:
         - npm ci --force
     build:
