@@ -6,6 +6,7 @@ import {VideoComponent} from './video/video.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
+import { CuerpoComponent } from './cuerpo/cuerpo.component';
 import { MainComponentComponent } from './main.component/main.component.component';
 
 const routes: Routes = [
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     path:'contact',
     component: ContactComponent
+  },
+  {
+    path:'cuerpo',
+    component: CuerpoComponent
   }
   
 ];

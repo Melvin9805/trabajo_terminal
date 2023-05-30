@@ -7,8 +7,9 @@ import { CargarScrptsService } from '../cargar-scrpts.service';
 })
 export class DashboardComponent {
 
-constructor (private _CargarScripts:CargarScrptsService){
-  _CargarScripts.Carga(["dashboard"]);
+constructor (private CargarScripts:CargarScrptsService){
+  //_CargarScripts.Carga(["dashboard"]);
   //_CargarScripts.Carga[("bootstrap.bundle.min.js")];
+  this.CargarScripts.loadScript();
 }
 }
