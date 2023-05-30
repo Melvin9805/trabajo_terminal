@@ -21,6 +21,9 @@ import { CarrouselComponent } from './carrousel/carrousel.component';
 import { CuerpoComponent } from './cuerpo/cuerpo.component';
 import { MainComponentComponent } from './main.component/main.component.component';
 
+//Servicios
+import { CargarScrptsService } from './cargar-scrpts.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +49,7 @@ import { MainComponentComponent } from './main.component/main.component.componen
     FontAwesomeModule,
     
   ],
-  providers: [],
+  providers: [CargarScrptsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

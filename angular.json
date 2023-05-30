@@ -34,11 +34,16 @@
               "node_modules/bootstrap/scss/bootstrap.scss",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "assets/dist/css/bootstrap.min.scss"
+              
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/@fortawesome/fontawesome-free/js/all.js"
+              "node_modules/@fortawesome/fontawesome-free/js/all.js",
+              "assets/dist/js/bootstrap.bundle.min.js",
+              "assets/dist/js/dashboard.js"
+
             ]
           },
           "configurations": {
@@ -102,11 +107,19 @@
             "styles": [
               "./node_modules/@videogular/ngx-videogular/fonts/videogular.css",
               "node_modules/bootstrap/scss/bootstrap.scss",
-              "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/styles.scss"
+              "node_modules/bootstrap-icons/font/bootstrap-icons.scss",
+              "src/styles.scss",
+              "assets/dist/css/bootstrap.min.scss",
+
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "src/styles.scss",
+              "assets/dist/css/bootstrap.min.scss"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "node_modules/@fortawesome/fontawesome-free/js/all.js",
+              "assets/dist/js/bootstrap.bundle.min.js",
+              "assets/dist/js/dashboard.js"
             ]
           }
         }
